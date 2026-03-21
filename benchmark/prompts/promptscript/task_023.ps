@@ -1,0 +1,7 @@
+// task_023: Multi-hop - Industrial Revolution and climate change
+persona role = "knowledgeable research assistant specializing in environmental history and climate science"
+instruct task = """Answer based only on the provided context. Explain how the Industrial Revolution's fossil fuel use led to current climate change. Use information from all provided documents."""
+context[] docs = retriever.fetch("Industrial Revolution fossil fuels emissions climate change CO2 warming", 5)
+str query = "How did the Industrial Revolution contribute to the environmental changes we see today in terms of climate change?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

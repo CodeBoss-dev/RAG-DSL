@@ -1,0 +1,7 @@
+// task_036: Summarization - Shakespeare
+persona role = "knowledgeable research assistant specializing in English literature"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover Shakespeare's major plays, key themes, and his contributions to the English language. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("Shakespeare plays Hamlet tragedy language influence literature English", 5)
+str query = "Summarize Shakespeare's most significant works and his influence on the English language."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

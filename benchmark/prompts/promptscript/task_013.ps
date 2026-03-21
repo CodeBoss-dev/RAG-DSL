@@ -1,0 +1,7 @@
+// task_013: Factual QA - Superconductivity (physics)
+persona role = "knowledgeable research assistant specializing in condensed matter physics"
+instruct task = """Answer based only on the provided context. Explain the mechanism of superconductivity and provide the year and discoverer."""
+context[] docs = retriever.fetch("superconductivity electrical resistance zero BCS Cooper pairs discovery", 3)
+str query = "How does superconductivity work and when was it discovered?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

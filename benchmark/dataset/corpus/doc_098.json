@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_098",
+  "title": "Autonomous Vehicles",
+  "text": "Autonomous vehicles (AVs), or self-driving cars, use a combination of sensors, actuators, complex algorithms, machine learning, and powerful processors to operate without human input. Sensors typically include cameras, radar, LiDAR, and ultrasonic sensors. The SAE defines six levels of driving automation, from Level 0 (no automation) to Level 5 (full automation in all conditions). Companies leading AV development include Waymo, Tesla, Cruise, and Mobileye. Key technical challenges include handling adverse weather conditions, making ethical decisions in unavoidable accident scenarios, and ensuring safety against sensor failures. As of 2024, robotaxi services operate in limited geographic areas, while Level 2-3 driver assistance is widely available in consumer vehicles.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

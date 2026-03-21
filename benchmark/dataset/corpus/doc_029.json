@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_029",
+  "title": "CRISPR-Cas9 Gene Editing",
+  "text": "CRISPR-Cas9 is a molecular tool derived from a natural immune defense mechanism in bacteria, adapted for precise editing of DNA in living organisms. The system uses a guide RNA to direct the Cas9 enzyme to a specific location in the genome, where it makes a double-strand cut. This cut can be used to disable a gene or introduce new genetic material. Jennifer Doudna and Emmanuelle Charpentier were awarded the Nobel Prize in Chemistry in 2020 for developing CRISPR-Cas9 gene editing. Applications include treating genetic diseases, developing disease-resistant crops, and advancing basic research. The technology raises ethical questions about germline editing and designer organisms.",
+  "source": "wikipedia",
+  "topic": "biology"
+}

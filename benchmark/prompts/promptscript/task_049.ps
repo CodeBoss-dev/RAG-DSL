@@ -1,0 +1,7 @@
+// task_049: Out-of-context (unanswerable) - Bitcoin price 2021
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Do not use outside knowledge."""
+context[] docs = retriever.fetch("Bitcoin origins blockchain Nakamoto whitepaper mining supply", 3)
+str query = "What was the price of Bitcoin in 2021?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

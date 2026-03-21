@@ -1,0 +1,7 @@
+// task_021: Multi-hop - CRISPR and RNA biology, FDA approval
+persona role = "knowledgeable research assistant specializing in molecular biology and biotechnology"
+instruct task = """Answer based only on the provided context. Explain the RNA connection to CRISPR guide sequences and identify the first FDA-approved CRISPR-based therapy. Use information from all provided documents."""
+context[] docs = retriever.fetch("CRISPR RNA guide sequence gene editing FDA approved therapy sickle cell", 5)
+str query = "How does CRISPR gene editing build on RNA biology, and what is the first FDA-approved CRISPR therapy?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

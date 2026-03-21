@@ -1,0 +1,5 @@
+metric,plain_english_mean,promptscript_mean,mean_diff (PS-PE),p_value,significant (p<0.05)
+Answer Correctness,0.545224,0.565458,0.020233999999999995,0.2425,False
+Faithfulness,0.032156,0.030355999999999998,-0.0017999999999999993,0.2012,False
+Format Compliance,0.9166679999999999,0.783334,-0.133334,0.0002,True
+Token Efficiency,0.995976,0.993436,-0.0025400000000000067,0.0,True

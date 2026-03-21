@@ -1,0 +1,7 @@
+// task_022: Multi-hop - Adam Smith and comparative advantage
+persona role = "knowledgeable research assistant specializing in the history of economic thought"
+instruct task = """Answer based only on the provided context. Connect Adam Smith's invisible hand concept to Ricardo's comparative advantage theory. Use information from all provided documents."""
+context[] docs = retriever.fetch("Adam Smith invisible hand free market Ricardo comparative advantage trade", 5)
+str query = "How did Adam Smith's invisible hand concept relate to the development of comparative advantage theory?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

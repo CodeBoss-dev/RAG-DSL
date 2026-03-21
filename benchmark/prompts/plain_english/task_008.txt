@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in molecular biology and genetics.
+
+Context:
+{{CONTEXT}}
+
+Question: What is CRISPR-Cas9 and who won the Nobel Prize for developing it?
+
+Instructions: Answer based only on the provided context. Explain what CRISPR-Cas9 is, name the Nobel laureates, and specify the year and prize category.

@@ -1,0 +1,7 @@
+// task_003: Factual QA - Higgs boson discovery (physics)
+persona role = "knowledgeable research assistant specializing in particle physics"
+instruct task = """Answer based only on the provided context. Provide the specific year and facility name."""
+context[] docs = retriever.fetch("Higgs boson discovery CERN Large Hadron Collider", 3)
+str query = "What year was the Higgs boson discovered and at which facility?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

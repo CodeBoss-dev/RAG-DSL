@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in artificial intelligence and technology.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the development and key features of machine learning and deep learning.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover machine learning types, deep learning breakthroughs, the transformer architecture, and NLP advances. Cite the specific documents you used by referring to their content.

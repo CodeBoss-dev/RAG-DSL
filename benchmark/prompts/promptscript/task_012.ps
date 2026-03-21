@@ -1,0 +1,7 @@
+// task_012: Factual QA - French Revolution (history)
+persona role = "knowledgeable research assistant specializing in European history"
+instruct task = """Answer based only on the provided context. Describe the revolution's scope and provide specific details about King Louis XVI's fate."""
+context[] docs = retriever.fetch("French Revolution Louis XVI execution monarchy overthrow", 3)
+str query = "Describe the French Revolution and the fate of King Louis XVI."
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

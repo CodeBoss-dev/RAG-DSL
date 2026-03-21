@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in Cold War history and space exploration.
+
+Context:
+{{CONTEXT}}
+
+Question: What role did the Cold War play in motivating the moon landing, and what was accomplished by the Apollo 11 mission?
+
+Instructions: Answer based only on the provided context. Explain the Cold War motivation and describe Apollo 11's specific achievements. Use information from all provided documents.

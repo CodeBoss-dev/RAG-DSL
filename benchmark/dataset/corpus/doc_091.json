@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_091",
+  "title": "Semiconductors and Transistors",
+  "text": "Semiconductors are materials with electrical conductivity between that of a conductor and an insulator, typically silicon or germanium. The transistor, invented at Bell Labs in 1947 by John Bardeen, Walter Brattain, and William Shockley, revolutionized electronics by replacing vacuum tubes. Modern integrated circuits contain billions of transistors on a single chip. Moore's Law, observed by Gordon Moore in 1965, noted that the number of transistors on a chip doubles approximately every two years, driving exponential improvements in computing power. The semiconductor industry is highly concentrated, with companies like TSMC, Intel, and Samsung manufacturing chips at nanometer-scale precision.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

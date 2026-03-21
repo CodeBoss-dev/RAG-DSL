@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant.
+
+Context:
+{{CONTEXT}}
+
+Question: How many tourists visit the Great Wall of China each year?
+
+Instructions: Answer based only on the provided context. If the answer cannot be found in the context, say 'I cannot answer this from the provided context.' Do not use outside knowledge.

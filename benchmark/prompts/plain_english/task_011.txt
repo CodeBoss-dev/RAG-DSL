@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in medicine and pharmacology.
+
+Context:
+{{CONTEXT}}
+
+Question: What is antimicrobial resistance and what has caused it to accelerate?
+
+Instructions: Answer based only on the provided context. Define antimicrobial resistance and explain the causes of its acceleration.

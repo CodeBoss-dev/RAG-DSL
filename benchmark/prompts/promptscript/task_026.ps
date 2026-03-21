@@ -1,0 +1,7 @@
+// task_026: Multi-hop - Nuclear fission vs fusion
+persona role = "knowledgeable research assistant specializing in nuclear physics and energy"
+instruct task = """Answer based only on the provided context. Contrast nuclear fission and fusion, and specify which is commercially used in power plants. Use information from all provided documents."""
+context[] docs = retriever.fetch("nuclear fission fusion power plant uranium energy difference", 5)
+str query = "How does nuclear fission differ from nuclear fusion, and which is currently used in power plants?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

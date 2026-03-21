@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in technology history.
+
+Context:
+{{CONTEXT}}
+
+Question: When was the World Wide Web invented and by whom?
+
+Instructions: Answer based only on the provided context. Provide the year, inventor's name, and where they worked.

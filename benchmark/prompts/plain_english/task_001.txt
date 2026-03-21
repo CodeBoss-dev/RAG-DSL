@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in physics.
+
+Context:
+{{CONTEXT}}
+
+Question: What is the speed of light in a vacuum?
+
+Instructions: Answer based only on the provided context. Be concise and accurate. Provide the numerical value and units.

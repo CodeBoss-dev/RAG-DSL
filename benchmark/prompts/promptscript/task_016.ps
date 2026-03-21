@@ -1,0 +1,7 @@
+// task_016: Multi-hop - Photoelectric effect and solar panels
+persona role = "knowledgeable research assistant specializing in physics and renewable energy"
+instruct task = """Answer based only on the provided context. Connect the photoelectric effect to photovoltaic technology, then describe recent solar panel cost trends. Use information from all provided documents."""
+context[] docs = retriever.fetch("photoelectric effect solar panels photovoltaic cost reduction", 5)
+str query = "How does the photoelectric effect relate to the development of solar panels, and what has happened to solar panel costs recently?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

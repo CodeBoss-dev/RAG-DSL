@@ -1,0 +1,7 @@
+// task_006: Factual QA - World Wide Web invention (technology)
+persona role = "knowledgeable research assistant specializing in technology history"
+instruct task = """Answer based only on the provided context. Provide the year, the inventor's name, and where they worked."""
+context[] docs = retriever.fetch("World Wide Web invented Berners-Lee CERN internet history", 3)
+str query = "When was the World Wide Web invented and by whom?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

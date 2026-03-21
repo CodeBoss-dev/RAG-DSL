@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in the history of medicine.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the development of vaccines from Jenner to modern mRNA vaccines.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Trace the history of vaccine development chronologically. Cite the specific documents you used by referring to their content.

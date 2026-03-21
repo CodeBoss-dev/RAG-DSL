@@ -1,0 +1,10 @@
+// PromptScript fixture with for loop
+persona role = "You are an expert summarizer."
+context[] chunks = retriever.fetch("neural networks", 2)
+
+for chunk in chunks {
+    str item = chunk
+}
+
+str query = "What are neural networks?"
+prompt.compile(role, query)

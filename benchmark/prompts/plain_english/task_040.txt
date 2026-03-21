@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in ancient trade and history.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the history and significance of the Silk Road trade network.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover the Silk Road's establishment, goods traded, cultural exchanges, and role in Mongol-era trade. Cite the specific documents you used by referring to their content.

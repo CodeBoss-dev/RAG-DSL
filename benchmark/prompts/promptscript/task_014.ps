@@ -1,0 +1,7 @@
+// task_014: Factual QA - Nash equilibrium (economics)
+persona role = "knowledgeable research assistant specializing in economics and game theory"
+instruct task = """Answer based only on the provided context. Define Nash equilibrium and identify who developed the concept and what recognition they received."""
+context[] docs = retriever.fetch("Nash equilibrium game theory strategy Nobel Prize economics", 3)
+str query = "What is the Nash equilibrium and who developed it?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

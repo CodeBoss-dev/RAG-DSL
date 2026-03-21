@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_146",
+  "title": "Bitcoin: Origins and Blockchain Basics",
+  "text": "Bitcoin was introduced by the pseudonymous Satoshi Nakamoto through a whitepaper titled 'Bitcoin: A Peer-to-Peer Electronic Cash System,' published on October 31, 2008. The Bitcoin network went live on January 3, 2009, when Nakamoto mined the genesis block. Bitcoin uses a proof-of-work consensus mechanism in which miners compete to solve cryptographic puzzles to validate transactions and earn new bitcoins. The total supply of Bitcoin is capped at 21 million coins. The identities of those involved in Bitcoin's creation remain unknown, though several individuals have been speculated to be Nakamoto.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

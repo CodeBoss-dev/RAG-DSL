@@ -1,0 +1,7 @@
+// task_048: Out-of-context (unanswerable) - Great Wall tourist numbers
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Do not use outside knowledge."""
+context[] docs = retriever.fetch("Great Wall China construction history Ming dynasty fortification", 3)
+str query = "How many tourists visit the Great Wall of China each year?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

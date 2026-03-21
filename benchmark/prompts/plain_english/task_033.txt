@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in ancient and classical history.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the Roman Empire's rise, peak, and fall.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover the military expansion, peak extent, cultural achievements, and fall. Cite the specific documents you used by referring to their content.

@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_090",
+  "title": "Global Positioning System (GPS)",
+  "text": "The Global Positioning System (GPS) is a satellite-based navigation system owned by the United States government and operated by the U.S. Space Force. It consists of at least 24 satellites orbiting Earth at an altitude of about 20,200 km, transmitting precise time signals from atomic clocks. A GPS receiver on the ground calculates its position by measuring the time delays from signals received from at least four satellites, using a process called trilateration. GPS was originally developed for military use and became fully operational in 1995. It was made available for civilian use in the 1980s, initially with intentional accuracy degradation that was removed in 2000. GPS is now used in navigation, surveying, scientific research, and synchronizing financial networks.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

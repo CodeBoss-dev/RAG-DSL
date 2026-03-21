@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in particle physics.
+
+Context:
+{{CONTEXT}}
+
+Question: What year was the Higgs boson discovered and at which facility?
+
+Instructions: Answer based only on the provided context. Provide the specific year and facility name.

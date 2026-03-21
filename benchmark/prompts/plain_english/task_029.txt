@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in 20th-century history.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the major events and causes of World War II.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover the war's beginning, major theaters, the Holocaust, turning points, and conclusion. Cite the specific documents you used by referring to their content.

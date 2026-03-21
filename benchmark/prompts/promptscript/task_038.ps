@@ -1,0 +1,7 @@
+// task_038: Summarization - Climate change
+persona role = "knowledgeable research assistant specializing in climate science and environmental policy"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover human causes of climate change, scientific evidence, the carbon cycle role, and international goals. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("climate change CO2 emissions warming evidence Paris Agreement carbon cycle greenhouse", 5)
+str query = "Summarize the climate change problem, including causes, evidence, and goals."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

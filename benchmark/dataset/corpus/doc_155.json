@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_155",
+  "title": "Quantum Computing: Qubits and Algorithms",
+  "text": "Quantum computers leverage quantum mechanical properties to perform computations. A qubit, unlike a classical bit, can exist in a superposition of 0 and 1 simultaneously. Multiple qubits can be entangled, meaning the state of one instantly correlates with another regardless of distance. Quantum gates manipulate qubits using unitary transformations. Shor's algorithm can factor large integers exponentially faster than classical algorithms, threatening current RSA encryption. Grover's algorithm provides a quadratic speedup for searching unsorted databases. Quantum error correction is a major technical challenge, as qubits are susceptible to decoherence from environmental interference. Major quantum computing platforms include superconducting qubits (IBM, Google), trapped ions (IonQ, Honeywell), and photonic systems.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

@@ -1,0 +1,7 @@
+// task_044: Out-of-context (answerable) - Neutron star properties
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Describe the mass, size, and density properties mentioned."""
+context[] docs = retriever.fetch("neutron star mass size density physical properties", 3)
+str query = "What physical properties does a neutron star have?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

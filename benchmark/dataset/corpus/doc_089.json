@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_089",
+  "title": "Cloud Computing",
+  "text": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Cloud services are typically categorized as Infrastructure as a Service (IaaS), Platform as a Service (PaaS), or Software as a Service (SaaS). Major cloud providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform. Cloud computing enables elastic scaling, where resources are dynamically allocated based on demand. Key concepts include virtualization, containerization (Docker), and orchestration (Kubernetes). Cloud adoption has grown rapidly since the 2010s, reshaping enterprise IT from capital expenditure to operational expenditure models.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

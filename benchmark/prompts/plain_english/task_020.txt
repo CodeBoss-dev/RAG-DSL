@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in astrophysics.
+
+Context:
+{{CONTEXT}}
+
+Question: How does the Doppler effect apply to astronomy, and what did this tell us about the universe's expansion?
+
+Instructions: Answer based only on the provided context. Explain the Doppler effect in astronomy and connect it to evidence for the universe's expansion. Use information from all provided documents.

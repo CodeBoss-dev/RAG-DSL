@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in geography.
+
+Context:
+{{CONTEXT}}
+
+Question: What is the world's largest hot desert and how large is it?
+
+Instructions: Answer based only on the provided context. Name the desert and provide its size in square kilometers.

@@ -1,0 +1,7 @@
+// task_018: Multi-hop - Printing press and Renaissance art
+persona role = "knowledgeable research assistant specializing in European history and culture"
+instruct task = """Answer based only on the provided context. Explain the printing press role in spreading Renaissance ideas, then describe the artistic achievements of the period. Use information from all provided documents."""
+context[] docs = retriever.fetch("printing press Gutenberg Renaissance art Leonardo Michelangelo ideas", 5)
+str query = "How did the invention of the printing press contribute to the Renaissance, and what were the key artistic achievements of that period?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

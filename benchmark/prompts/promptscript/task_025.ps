@@ -1,0 +1,7 @@
+// task_025: Multi-hop - Mongol Empire and Silk Road
+persona role = "knowledgeable research assistant specializing in Central Asian and Eurasian history"
+instruct task = """Answer based only on the provided context. Describe the Silk Road and explain how the Mongol Empire affected trade through it. Use information from all provided documents."""
+context[] docs = retriever.fetch("Mongol Empire Silk Road trade Pax Mongolica China Europe routes", 5)
+str query = "How does the Mongol Empire's trade facilitation compare to the ancient Silk Road it operated on?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

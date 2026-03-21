@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in European history and culture.
+
+Context:
+{{CONTEXT}}
+
+Question: How did the invention of the printing press contribute to the Renaissance, and what were the key artistic achievements of that period?
+
+Instructions: Answer based only on the provided context. Explain the printing press's role in spreading Renaissance ideas, then describe the period's artistic achievements. Use information from all provided documents.

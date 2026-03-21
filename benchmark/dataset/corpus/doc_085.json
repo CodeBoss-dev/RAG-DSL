@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_085",
+  "title": "Operating Systems",
+  "text": "An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. The OS acts as an intermediary between programs and hardware, managing processes, memory, file systems, and input/output devices. Major operating systems include Microsoft Windows, macOS, Linux, Android, and iOS. The Linux kernel, created by Linus Torvalds in 1991, is free and open-source and powers the vast majority of servers, smartphones (via Android), and supercomputers. Key OS concepts include process scheduling, virtual memory, device drivers, and the distinction between kernel space and user space.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

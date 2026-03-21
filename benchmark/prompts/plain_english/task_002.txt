@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in physics.
+
+Context:
+{{CONTEXT}}
+
+Question: Who discovered radioactivity and what are the three main types of radioactive decay?
+
+Instructions: Answer based only on the provided context. Identify the discoverer and list all three types with brief descriptions.

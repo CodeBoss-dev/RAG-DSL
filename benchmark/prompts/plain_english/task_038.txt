@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in climate science and environmental policy.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the climate change problem, including causes, evidence, and goals.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover human causes, scientific evidence, the carbon cycle's role, and international goals. Cite the specific documents you used by referring to their content.

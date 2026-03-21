@@ -1,0 +1,7 @@
+// task_040: Summarization - Silk Road history
+persona role = "knowledgeable research assistant specializing in ancient trade and history"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover the Silk Road establishment, goods traded, cultural exchanges, and role during the Mongol era. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("Silk Road trade ancient China Europe Mongol Pax history goods", 5)
+str query = "Summarize the history and significance of the Silk Road trade network."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

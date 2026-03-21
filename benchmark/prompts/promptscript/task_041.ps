@@ -1,0 +1,7 @@
+// task_041: Out-of-context (answerable) - Dead Sea salinity
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Provide specific numerical values if available."""
+context[] docs = retriever.fetch("Dead Sea salinity salt concentration ocean comparison", 3)
+str query = "What is the salinity of the Dead Sea compared to the ocean?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

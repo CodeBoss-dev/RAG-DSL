@@ -1,0 +1,7 @@
+// task_030: Summarization - Immune response to viruses
+persona role = "knowledgeable research assistant specializing in immunology and virology"
+instruct task = """Provide a comprehensive summary based only on the provided context. Describe both innate and adaptive immune responses to viruses, including the roles of T cells, B cells, and antibodies. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("immune system viral infection T cells B cells antibodies innate adaptive response", 5)
+str query = "Provide a summary of how the immune system responds to viral infections."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

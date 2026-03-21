@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_094",
+  "title": "Robotics and Automation",
+  "text": "Robotics is an interdisciplinary branch of computer science and engineering involving the design, construction, operation, and use of robots. Modern robots range from industrial manipulators used in manufacturing to autonomous mobile robots. Degrees of freedom (DOF) describe the number of independent motions a robot can perform. Robot Operating System (ROS) is an open-source framework widely used in robotics research. Sensors such as LiDAR, cameras, and IMUs enable robots to perceive their environment. Boston Dynamics' robots demonstrate advanced locomotion, while industrial robots from companies like FANUC and ABB perform welding, assembly, and painting tasks with high precision. Collaborative robots (cobots) are designed to work alongside humans safely.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

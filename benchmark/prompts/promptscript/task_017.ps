@@ -1,0 +1,7 @@
+// task_017: Multi-hop - DNA structure to Human Genome Project
+persona role = "knowledgeable research assistant specializing in molecular biology and genomics"
+instruct task = """Answer based only on the provided context. Connect the DNA structure discovery to the Human Genome Project and report its findings about the number of human genes. Use information from all provided documents."""
+context[] docs = retriever.fetch("DNA structure Watson Crick Human Genome Project gene count", 5)
+str query = "How did the discovery of DNA's structure lead to the Human Genome Project, and what did that project find about the number of human genes?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

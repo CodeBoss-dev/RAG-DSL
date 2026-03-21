@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in European politics and economics.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the European Union: its formation, institutions, and the euro.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover the EU's founding, key institutions, the single market, the euro, and Brexit. Cite the specific documents you used by referring to their content.

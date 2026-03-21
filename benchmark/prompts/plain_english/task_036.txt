@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in English literature.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize Shakespeare's most significant works and his influence on the English language.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover his major plays, themes, and linguistic contributions. Cite the specific documents you used by referring to their content.

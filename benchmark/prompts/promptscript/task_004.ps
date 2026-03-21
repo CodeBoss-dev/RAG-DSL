@@ -1,0 +1,7 @@
+// task_004: Factual QA - DNA structure (biology)
+persona role = "knowledgeable research assistant specializing in molecular biology"
+instruct task = """Answer based only on the provided context. Expand the acronym and describe the structural features mentioned."""
+context[] docs = retriever.fetch("DNA deoxyribonucleic acid structure double helix", 3)
+str query = "What does DNA stand for and what is its structure?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

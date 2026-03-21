@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_099",
+  "title": "Natural Language Processing",
+  "text": "Natural language processing (NLP) is a subfield of computer science and artificial intelligence concerned with the interaction between computers and human language. Early NLP relied on hand-crafted rules and statistical methods. The development of word embeddings (Word2Vec, 2013) and later the transformer architecture (2017) transformed the field. Large language models (LLMs) such as GPT, BERT, and LLaMA, trained on vast amounts of text, have achieved near-human performance on many NLP benchmarks. Key NLP tasks include machine translation, sentiment analysis, named entity recognition, question answering, and text summarization. Despite their capabilities, LLMs can hallucinate facts and exhibit biases present in training data.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

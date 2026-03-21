@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in molecular biology.
+
+Context:
+{{CONTEXT}}
+
+Question: What does DNA stand for and what is its structure?
+
+Instructions: Answer based only on the provided context. Expand the acronym and describe the structural features mentioned.

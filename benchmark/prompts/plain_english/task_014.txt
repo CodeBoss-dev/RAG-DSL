@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in economics and game theory.
+
+Context:
+{{CONTEXT}}
+
+Question: What is the Nash equilibrium and who developed it?
+
+Instructions: Answer based only on the provided context. Define Nash equilibrium and identify who developed the concept and what recognition they received.

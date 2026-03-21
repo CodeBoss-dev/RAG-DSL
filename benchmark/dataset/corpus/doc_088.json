@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_088",
+  "title": "Cryptography and Encryption",
+  "text": "Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior. Modern cryptography encompasses symmetric encryption (same key for encryption and decryption, e.g., AES), asymmetric encryption (public/private key pairs, e.g., RSA), and cryptographic hash functions (one-way functions like SHA-256). Public key infrastructure (PKI) enables secure internet communication via HTTPS. The RSA algorithm, developed by Rivest, Shamir, and Adleman in 1977, relies on the mathematical difficulty of factoring large prime numbers. Quantum computers could potentially break current RSA encryption, motivating research into post-quantum cryptography.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

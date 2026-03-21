@@ -1,0 +1,7 @@
+// task_029: Summarization - World War II
+persona role = "knowledgeable research assistant specializing in 20th-century history"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover the war's beginning, major theaters, the Holocaust, turning points, and conclusion. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("World War II causes events Holocaust D-Day Germany Japan surrender", 5)
+str query = "Summarize the major events and causes of World War II."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

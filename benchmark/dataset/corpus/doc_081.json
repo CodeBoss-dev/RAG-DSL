@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_081",
+  "title": "Machine Learning Fundamentals",
+  "text": "Machine learning is a subfield of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on developing algorithms that can access data and use it to learn for themselves. The three main types are supervised learning (learning from labeled data), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning through rewards and penalties). Key algorithms include linear regression, decision trees, support vector machines, and neural networks. Machine learning is widely applied in spam filtering, recommendation systems, image recognition, and natural language processing.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

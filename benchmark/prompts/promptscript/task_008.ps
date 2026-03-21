@@ -1,0 +1,7 @@
+// task_008: Factual QA - CRISPR Nobel Prize (biology)
+persona role = "knowledgeable research assistant specializing in molecular biology and genetics"
+instruct task = """Answer based only on the provided context. Explain what CRISPR-Cas9 is, name the Nobel laureates, and specify the year and prize category."""
+context[] docs = retriever.fetch("CRISPR Cas9 gene editing Nobel Prize Doudna Charpentier", 3)
+str query = "What is CRISPR-Cas9 and who won the Nobel Prize for developing it?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

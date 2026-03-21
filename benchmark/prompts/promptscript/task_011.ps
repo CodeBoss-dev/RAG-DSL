@@ -1,0 +1,7 @@
+// task_011: Factual QA - Antimicrobial resistance (medicine)
+persona role = "knowledgeable research assistant specializing in medicine and pharmacology"
+instruct task = """Answer based only on the provided context. Define antimicrobial resistance and explain the causes of its acceleration."""
+context[] docs = retriever.fetch("antimicrobial resistance antibiotics bacteria overuse", 3)
+str query = "What is antimicrobial resistance and what has caused it to accelerate?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in geography.
+
+Context:
+{{CONTEXT}}
+
+Question: What is the tallest mountain on Earth and what is its height?
+
+Instructions: Answer based only on the provided context. Name the mountain and provide its height in meters.

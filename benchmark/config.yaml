@@ -1,0 +1,41 @@
+# Benchmark configuration for PromptScript vs Plain-English evaluation
+
+# LLM backend — Ollama's OpenAI-compatible endpoint
+llm:
+  base_url: "http://localhost:11434/v1"
+  api_key: "ollama"          # Ollama ignores this but openai SDK requires it
+  model: "llama3.1:8b"       # Change to any model pulled in Ollama
+  default_temperature: 0.1
+  default_max_tokens: 512
+  timeout: 120               # seconds per request
+
+# BM25 retriever
+retriever:
+  top_k: 5                   # Number of chunks to retrieve per query
+  corpus_dir: "benchmark/dataset/corpus"
+
+# Dataset paths
+dataset:
+  tasks_file: "benchmark/dataset/tasks.jsonl"
+  plain_english_dir: "benchmark/prompts/plain_english"
+  promptscript_dir: "benchmark/prompts/promptscript"
+
+# Output paths
+output:
+  results_dir: "benchmark/results"
+  results_file: "benchmark/results/results.jsonl"
+
+# Token budget (None = unlimited)
+token_budget: null
+
+# Scoring weights for answer correctness
+scoring:
+  exact_match_weight: 0.4
+  rouge_l_weight: 0.6
+
+# Run control
+run:
+  task_ids: null             # null = run all 50; or list like ["task_001", "task_002"]
+  prompt_types:              # which prompt types to evaluate
+    - plain_english
+    - promptscript

@@ -1,0 +1,7 @@
+// task_001: Factual QA - Speed of light (physics)
+persona role = "knowledgeable research assistant specializing in physics"
+instruct task = """Answer based only on the provided context. Be concise and accurate. Provide the numerical value and units."""
+context[] docs = retriever.fetch("speed of light vacuum constant", 3)
+str query = "What is the speed of light in a vacuum?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

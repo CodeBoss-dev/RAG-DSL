@@ -1,0 +1,7 @@
+// task_032: Summarization - Machine learning and deep learning
+persona role = "knowledgeable research assistant specializing in artificial intelligence and technology"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover machine learning types, deep learning breakthroughs, the transformer architecture, and NLP advances. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("machine learning deep learning neural networks transformer NLP language models", 5)
+str query = "Summarize the development and key features of machine learning and deep learning."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

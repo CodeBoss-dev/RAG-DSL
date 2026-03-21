@@ -1,0 +1,13 @@
+// PromptScript fixture with context retrieval
+set_param temperature = 0.2
+set_param max_tokens = 512
+
+persona role = "You are a research assistant."
+context[] docs = retriever.fetch("climate change", 3)
+str query = "Summarize the key findings on climate change."
+instruct task = """
+Use only the provided context to answer.
+Cite sources where relevant.
+"""
+
+prompt.compile(role, docs, task, query)

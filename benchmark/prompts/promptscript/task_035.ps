@@ -1,0 +1,7 @@
+// task_035: Summarization - History of vaccines
+persona role = "knowledgeable research assistant specializing in the history of medicine"
+instruct task = """Provide a comprehensive summary based only on the provided context. Trace the history of vaccine development chronologically from Jenner to mRNA vaccines. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("vaccine history Jenner Pasteur smallpox polio mRNA COVID development", 5)
+str query = "Summarize the development of vaccines from Jenner to modern mRNA vaccines."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

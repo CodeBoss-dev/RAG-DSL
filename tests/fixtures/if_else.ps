@@ -1,0 +1,12 @@
+// PromptScript fixture with if/else
+bool verbose = true
+persona role = "You are an assistant."
+
+if verbose == true {
+    instruct task = "Provide a detailed, step-by-step answer."
+} else {
+    instruct task = "Answer briefly."
+}
+
+str query = "Explain photosynthesis."
+prompt.compile(role, task, query)

@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in South American geography.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the geography and key features of the major South American physical landmarks.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Describe the Amazon River and the Andes mountains, including key measurements and geographic significance. Cite the specific documents you used by referring to their content.

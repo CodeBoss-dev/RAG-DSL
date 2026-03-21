@@ -1,0 +1,7 @@
+// task_039: Summarization - European Union
+persona role = "knowledgeable research assistant specializing in European politics and economics"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover the EU founding, key institutions, the single market, the euro currency, and Brexit. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("European Union formation institutions euro single market Brexit Maastricht", 5)
+str query = "Summarize the European Union: its formation, institutions, and the euro."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in quantum physics.
+
+Context:
+{{CONTEXT}}
+
+Question: What is the Heisenberg uncertainty principle?
+
+Instructions: Answer based only on the provided context. Clearly state what the principle says and why it occurs.

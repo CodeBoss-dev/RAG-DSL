@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in environmental history and climate science.
+
+Context:
+{{CONTEXT}}
+
+Question: How did the Industrial Revolution contribute to the environmental changes we see today in terms of climate change?
+
+Instructions: Answer based only on the provided context. Explain the Industrial Revolution's connection to current climate change. Use information from all provided documents.

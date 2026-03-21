@@ -1,0 +1,7 @@
+// task_009: Factual QA - Heisenberg uncertainty principle (physics)
+persona role = "knowledgeable research assistant specializing in quantum physics"
+instruct task = """Answer based only on the provided context. Clearly state what the principle says and explain why it occurs at the quantum level."""
+context[] docs = retriever.fetch("Heisenberg uncertainty principle position momentum quantum mechanics", 3)
+str query = "What is the Heisenberg uncertainty principle?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

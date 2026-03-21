@@ -1,0 +1,7 @@
+// task_042: Out-of-context (answerable) - First moon walk
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Provide the astronaut full name and mission name if available."""
+context[] docs = retriever.fetch("moon landing Apollo first astronaut walk lunar surface", 3)
+str query = "Who was the first human to walk on the Moon?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

@@ -1,0 +1,7 @@
+// task_005: Factual QA - Sahara desert (geography)
+persona role = "knowledgeable research assistant specializing in geography"
+instruct task = """Answer based only on the provided context. Name the desert and provide its size in square kilometers."""
+context[] docs = retriever.fetch("world largest hot desert size square kilometers", 3)
+str query = "What is the world's largest hot desert and how large is it?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

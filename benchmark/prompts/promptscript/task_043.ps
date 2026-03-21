@@ -1,0 +1,7 @@
+// task_043: Out-of-context (answerable) - Great Wall total length
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Provide the measurement in kilometers."""
+context[] docs = retriever.fetch("Great Wall China total length kilometers all sections", 3)
+str query = "What is the total length of all sections of the Great Wall of China?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

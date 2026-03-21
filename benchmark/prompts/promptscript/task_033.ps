@@ -1,0 +1,7 @@
+// task_033: Summarization - Roman Empire history
+persona role = "knowledgeable research assistant specializing in ancient and classical history"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover the Roman Empire's military expansion, peak extent, cultural achievements, and fall. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("Roman Empire rise fall military expansion culture government peak", 5)
+str query = "Summarize the Roman Empire's rise, peak, and fall."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

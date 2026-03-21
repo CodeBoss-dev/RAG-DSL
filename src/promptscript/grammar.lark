@@ -1,0 +1,76 @@
+// PromptScript EBNF Grammar (Lark)
+
+start: statement*
+
+statement: declaration
+         | set_param
+         | for_loop
+         | if_block
+         | compile_call
+         | assignment
+
+// Variable declarations with type annotation
+declaration: type_spec IDENT "=" expression
+
+type_spec: "str"        -> type_str
+         | "int"        -> type_int
+         | "float"      -> type_float
+         | "bool"       -> type_bool
+         | "persona"    -> type_persona
+         | "instruct"   -> type_instruct
+         | "context[]"  -> type_context_list
+
+// API parameter setting (routes to API envelope, not prompt body)
+set_param: "set_param" IDENT "=" param_literal
+
+param_literal: NUMBER   -> number_literal
+             | BOOL     -> bool_literal
+
+// Variable reassignment (no type annotation)
+assignment: IDENT "=" expression
+
+// Control flow
+for_loop: "for" IDENT "in" expression "{" statement* "}"
+
+if_block: "if" condition "{" then_body "}" ("else" "{" else_body "}")?
+
+then_body: statement*
+else_body: statement*
+
+condition: expression COMP_OP expression -> binary_condition
+         | "!" expression               -> not_condition
+         | expression                   -> expr_condition
+
+COMP_OP: "==" | "!=" | "<" | ">" | "<=" | ">="
+
+// Compile trigger
+compile_call: "prompt.compile" "(" arg_list? ")"
+
+arg_list: expression ("," expression)*
+
+// Expressions
+expression: dotted_call   -> func_call_expr
+          | IDENT          -> ident_expr
+          | LONG_STRING    -> long_string_expr
+          | STRING         -> string_expr
+          | NUMBER         -> number_expr
+          | BOOL           -> bool_expr
+          | list_expr
+
+dotted_call: dotted_name "(" arg_list? ")"
+
+dotted_name: IDENT ("." IDENT)*
+
+list_expr: "[" (expression ("," expression)*)? "]"
+
+// Terminals
+BOOL.2: "true" | "false"
+IDENT: /[a-zA-Z_][a-zA-Z0-9_]*/
+STRING: "\"" /([^"\\]|\\.)*/ "\""
+      | "'" /([^'\\]|\\.)*/ "'"
+LONG_STRING: "\"\"\"" /(.|\n)*?/ "\"\"\""
+NUMBER: /-?[0-9]+(\.[0-9]+)?([eE][+-]?[0-9]+)?/
+
+// Whitespace and comments
+%ignore /[ \t\r\n]+/
+%ignore /\/\/[^\n]*/

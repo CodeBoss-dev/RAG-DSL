@@ -1,0 +1,7 @@
+// task_031: Summarization - South American geography
+persona role = "knowledgeable research assistant specializing in South American geography"
+instruct task = """Provide a comprehensive summary based only on the provided context. Describe the Amazon River and the Andes mountains, including key measurements and geographic significance. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("Amazon River South America Andes mountains length geography landmarks", 5)
+str query = "Summarize the geography and key features of the major South American physical landmarks."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

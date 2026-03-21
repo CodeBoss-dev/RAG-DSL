@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in molecular biology and genomics.
+
+Context:
+{{CONTEXT}}
+
+Question: How did the discovery of DNA's structure lead to the Human Genome Project, and what did that project find about the number of human genes?
+
+Instructions: Answer based only on the provided context. Connect the DNA structure discovery to the Human Genome Project and report its findings. Use information from all provided documents.

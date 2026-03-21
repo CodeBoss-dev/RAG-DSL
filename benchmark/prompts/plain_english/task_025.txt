@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in Central Asian and Eurasian history.
+
+Context:
+{{CONTEXT}}
+
+Question: How does the Mongol Empire's trade facilitation compare to the ancient Silk Road it operated on?
+
+Instructions: Answer based only on the provided context. Describe the Silk Road and how the Mongol Empire's Pax Mongolica affected it. Use information from all provided documents.

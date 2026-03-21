@@ -1,0 +1,7 @@
+// task_028: Summarization - Quantum mechanics developments
+persona role = "knowledgeable research assistant specializing in physics"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover the main principles, key experiments, and the founders of quantum mechanics. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("quantum mechanics wave-particle duality uncertainty principle founders Bohr Heisenberg Schrodinger", 5)
+str query = "Summarize the key developments in quantum mechanics and its founders."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

@@ -1,0 +1,7 @@
+// task_027: Multi-hop - Keynesian vs classical economics
+persona role = "knowledgeable research assistant specializing in the history of economic thought"
+instruct task = """Answer based only on the provided context. Contrast Keynesian and classical economics on government intervention policy. Use information from all provided documents."""
+context[] docs = retriever.fetch("Keynesian economics Adam Smith classical government intervention stimulus recession", 5)
+str query = "How does Keynesian economics differ from Adam Smith's classical economics in their policy prescriptions?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

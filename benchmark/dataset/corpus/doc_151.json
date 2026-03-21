@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_151",
+  "title": "Machine Learning: Supervised Learning Methods",
+  "text": "Supervised learning is a type of machine learning where the algorithm is trained on a labeled dataset, learning to map input features to output labels. Common supervised learning algorithms include linear regression (for continuous outputs), logistic regression (for classification), decision trees, random forests, and gradient boosting methods like XGBoost. Support Vector Machines (SVMs) find hyperplanes that best separate data into classes. k-Nearest Neighbors (kNN) classifies new points based on the majority class of their k nearest neighbors in the training set. Evaluation metrics for supervised learning include accuracy, precision, recall, F1 score, and area under the ROC curve (AUC-ROC).",
+  "source": "wikipedia",
+  "topic": "technology"
+}

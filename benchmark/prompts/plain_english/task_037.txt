@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in financial technology.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the history and applications of blockchain technology and cryptocurrency.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover blockchain fundamentals, Bitcoin, Ethereum, and regulatory issues. Cite the specific documents you used by referring to their content.

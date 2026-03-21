@@ -1,0 +1,7 @@
+// task_020: Multi-hop - Doppler effect and universe expansion
+persona role = "knowledgeable research assistant specializing in astrophysics"
+instruct task = """Answer based only on the provided context. Explain how the Doppler effect applies to astronomy and connect it to evidence for the universe's expansion. Use information from all provided documents."""
+context[] docs = retriever.fetch("Doppler effect redshift galaxies universe expansion Hubble Big Bang", 5)
+str query = "How does the Doppler effect apply to astronomy, and what did this tell us about the universe's expansion?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

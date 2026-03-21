@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_093",
+  "title": "Quantum Computing",
+  "text": "Quantum computers use quantum mechanical phenomena such as superposition and entanglement to perform computations. Unlike classical bits (0 or 1), quantum bits (qubits) can exist in a superposition of states, enabling quantum computers to explore many solutions simultaneously. Quantum algorithms such as Shor's algorithm (factoring large numbers exponentially faster than classical computers) and Grover's algorithm (searching unsorted databases quadratically faster) demonstrate theoretical quantum advantage. Current quantum computers face significant challenges including decoherence, error rates, and the need for near-absolute-zero operating temperatures. Companies including IBM, Google, and IonQ are leading quantum hardware development.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

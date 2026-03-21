@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in immunology and virology.
+
+Context:
+{{CONTEXT}}
+
+Question: Provide a summary of how the immune system responds to viral infections.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Describe both innate and adaptive immune responses to viruses. Cite the specific documents you used by referring to their content.

@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_002",
+  "title": "Thermodynamics and the Laws of Heat",
+  "text": "Thermodynamics is the branch of physics that studies the relationships between heat, work, temperature, and energy. The first law of thermodynamics states that energy cannot be created or destroyed, only transformed from one form to another. The second law introduces the concept of entropy, stating that the total entropy of an isolated system can never decrease over time. The third law establishes that the entropy of a perfect crystal at absolute zero temperature is exactly zero. These laws underpin the operation of heat engines, refrigerators, and virtually all thermal processes.",
+  "source": "wikipedia",
+  "topic": "physics"
+}

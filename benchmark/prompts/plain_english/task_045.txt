@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant.
+
+Context:
+{{CONTEXT}}
+
+Question: What did the Human Genome Project find about the number of human protein-coding genes?
+
+Instructions: Answer based only on the provided context. If the answer cannot be found in the context, say 'I cannot answer this from the provided context.' Provide the specific numbers found and what was expected before the project.

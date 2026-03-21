@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in neuroscience.
+
+Context:
+{{CONTEXT}}
+
+Question: What is neuroplasticity and what cellular mechanism underlies learning?
+
+Instructions: Answer based only on the provided context. Define neuroplasticity and name the cellular mechanism for synaptic strengthening in learning.

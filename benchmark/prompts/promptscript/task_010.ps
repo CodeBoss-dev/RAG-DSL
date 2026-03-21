@@ -1,0 +1,7 @@
+// task_010: Factual QA - Mariana Trench (geography/oceanography)
+persona role = "knowledgeable research assistant specializing in oceanography"
+instruct task = """Answer based only on the provided context. Name the location and provide the depth in meters."""
+context[] docs = retriever.fetch("deepest point ocean trench Challenger Deep", 3)
+str query = "What is the deepest point in the ocean and how deep is it?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

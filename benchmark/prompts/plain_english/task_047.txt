@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant.
+
+Context:
+{{CONTEXT}}
+
+Question: What animals are commonly found in the Sahara Desert?
+
+Instructions: Answer based only on the provided context. If the answer cannot be found in the context, say 'I cannot answer this from the provided context.' Do not use outside knowledge.

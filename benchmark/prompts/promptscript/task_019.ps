@@ -1,0 +1,7 @@
+// task_019: Multi-hop - Cold War motivation for moon landing
+persona role = "knowledgeable research assistant specializing in Cold War history and space exploration"
+instruct task = """Answer based only on the provided context. Explain the Cold War motivation and describe the specific achievements of the Apollo 11 mission. Use information from all provided documents."""
+context[] docs = retriever.fetch("Cold War Soviet Union Sputnik Apollo moon landing Armstrong", 5)
+str query = "What role did the Cold War play in motivating the moon landing, and what was accomplished by the Apollo 11 mission?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

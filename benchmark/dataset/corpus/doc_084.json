@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_084",
+  "title": "Blockchain Technology",
+  "text": "A blockchain is a distributed ledger technology that records transactions across many computers in a way that prevents retroactive alteration. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data, forming an immutable chain. Bitcoin, introduced by the pseudonymous Satoshi Nakamoto in 2008, was the first application of blockchain technology. Ethereum expanded blockchain capabilities by introducing smart contracts \u2014 self-executing programs stored on the blockchain. Consensus mechanisms like Proof of Work (energy-intensive mining) and Proof of Stake (validators deposit cryptocurrency) secure the network without a central authority. Blockchain has applications in finance, supply chain management, and digital identity.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_011",
+  "title": "Entropy and the Arrow of Time",
+  "text": "Entropy is a thermodynamic quantity representing the unavailability of a system's thermal energy for conversion into mechanical work, often interpreted as the degree of disorder or randomness in the system. The second law of thermodynamics states that the entropy of an isolated system always increases or remains constant, never decreases. This law establishes a directional arrow of time, as processes naturally proceed from ordered states to disordered ones. Ludwig Boltzmann provided a statistical interpretation of entropy, relating it to the number of microscopic configurations corresponding to a macroscopic state. High entropy corresponds to many possible microscopic arrangements, while low entropy corresponds to few.",
+  "source": "wikipedia",
+  "topic": "physics"
+}

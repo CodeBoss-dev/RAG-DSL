@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in the history of economic thought.
+
+Context:
+{{CONTEXT}}
+
+Question: How does Keynesian economics differ from Adam Smith's classical economics in their policy prescriptions?
+
+Instructions: Answer based only on the provided context. Contrast the two schools of thought on government intervention. Use information from all provided documents.

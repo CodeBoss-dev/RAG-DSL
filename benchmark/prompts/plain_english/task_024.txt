@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in immunology and public health.
+
+Context:
+{{CONTEXT}}
+
+Question: How do vaccines create herd immunity, and what proportion of people must be vaccinated to achieve it for measles?
+
+Instructions: Answer based only on the provided context. Explain the vaccine-to-herd-immunity mechanism and provide the measles threshold percentage. Use information from all provided documents.

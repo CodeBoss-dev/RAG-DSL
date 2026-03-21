@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_190",
+  "title": "Electromagnetic Induction and Electric Generators",
+  "text": "Electromagnetic induction, discovered by Michael Faraday in 1831, is the production of an electromotive force (EMF) and thus electric current in an electrical conductor placed within a varying magnetic field. Faraday's law states that the induced EMF is proportional to the rate of change of magnetic flux. Electric generators exploit this principle: rotating a coil of wire within a magnetic field induces alternating current (AC). James Clerk Maxwell's equations, formulated in 1865, mathematically unified electricity and magnetism into electromagnetism. Transformers use electromagnetic induction to change AC voltage levels, enabling efficient long-distance power transmission at high voltage.",
+  "source": "wikipedia",
+  "topic": "physics"
+}

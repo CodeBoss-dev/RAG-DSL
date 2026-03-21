@@ -1,0 +1,7 @@
+// task_037: Summarization - Blockchain and cryptocurrency
+persona role = "knowledgeable research assistant specializing in financial technology"
+instruct task = """Provide a comprehensive summary based only on the provided context. Cover blockchain fundamentals, Bitcoin, Ethereum smart contracts, and regulatory issues. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("blockchain Bitcoin cryptocurrency Ethereum smart contracts regulation distributed ledger", 5)
+str query = "Summarize the history and applications of blockchain technology and cryptocurrency."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

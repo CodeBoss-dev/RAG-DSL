@@ -1,0 +1,7 @@
+// task_034: Summarization - Economics fundamentals
+persona role = "knowledgeable research assistant specializing in economics"
+instruct task = """Provide a comprehensive summary based only on the provided context. Explain supply and demand, inflation, and GDP clearly, noting limitations of each. Cite the specific documents you used by referring to their content at the end of your summary."""
+context[] docs = retriever.fetch("supply demand inflation GDP economic measurement theory price level", 5)
+str query = "Summarize the economic theories of supply and demand, inflation, and GDP."
+set_param temperature = 0.3
+prompt.compile(role, docs, task, query)

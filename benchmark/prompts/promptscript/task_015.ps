@@ -1,0 +1,7 @@
+// task_015: Factual QA - Neuroplasticity (neuroscience)
+persona role = "knowledgeable research assistant specializing in neuroscience"
+instruct task = """Answer based only on the provided context. Define neuroplasticity and name the cellular mechanism for synaptic strengthening in learning."""
+context[] docs = retriever.fetch("neuroplasticity brain learning synaptic strengthening LTP", 3)
+str query = "What is neuroplasticity and what cellular mechanism underlies learning?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

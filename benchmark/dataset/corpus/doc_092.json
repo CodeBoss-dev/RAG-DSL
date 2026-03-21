@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_092",
+  "title": "Fiber Optics and Data Transmission",
+  "text": "Fiber optic cables use light to transmit data through thin strands of glass or plastic, enabling much higher bandwidth and lower signal loss than copper wire. Light travels through the fiber by total internal reflection, bouncing off the cladding at angles exceeding the critical angle. A single fiber can carry dozens of channels simultaneously via wavelength-division multiplexing (WDM), each carrying billions of bits per second. Transatlantic fiber optic cables carry the vast majority of international internet traffic. Fiber optics were first used commercially in the 1970s and now form the backbone of global telecommunications networks. They are also used in medical imaging (endoscopes) and sensing applications.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

@@ -1,0 +1,7 @@
+// task_046: Out-of-context (unanswerable) - Amazon biodiversity
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Do not use outside knowledge."""
+context[] docs = retriever.fetch("Amazon River length hydrology tributaries discharge", 3)
+str query = "What species of animals and plants live in the Amazon rainforest?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

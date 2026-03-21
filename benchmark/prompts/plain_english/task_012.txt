@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in European history.
+
+Context:
+{{CONTEXT}}
+
+Question: Describe the French Revolution and the fate of King Louis XVI.
+
+Instructions: Answer based only on the provided context. Describe the revolution's scope and provide specific details about King Louis XVI's fate.

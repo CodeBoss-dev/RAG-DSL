@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in physics and renewable energy.
+
+Context:
+{{CONTEXT}}
+
+Question: How does the photoelectric effect relate to the development of solar panels, and what has happened to solar panel costs recently?
+
+Instructions: Answer based only on the provided context. Connect the photoelectric effect to photovoltaic technology, then describe recent cost trends. Use information from all provided documents.

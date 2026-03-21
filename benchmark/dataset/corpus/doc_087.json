@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_087",
+  "title": "Databases and SQL",
+  "text": "A database is an organized collection of structured information or data, typically stored and accessed electronically. Relational databases, introduced by Edgar F. Codd in 1970, organize data into tables with rows and columns, and use SQL (Structured Query Language) for data manipulation. Major relational databases include MySQL, PostgreSQL, Oracle, and Microsoft SQL Server. NoSQL databases, such as MongoDB (document-oriented), Redis (key-value), and Apache Cassandra (wide-column), offer alternative data models for use cases requiring flexibility, scalability, or performance that relational databases cannot easily provide. Database concepts include ACID properties (Atomicity, Consistency, Isolation, Durability), indexing, and normalization.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

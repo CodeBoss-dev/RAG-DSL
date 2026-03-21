@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_083",
+  "title": "Internet Protocols",
+  "text": "The internet operates through a suite of communication protocols that define how data is transmitted between devices. The Internet Protocol (IP) provides addressing and routing, with IPv4 using 32-bit addresses and IPv6 using 128-bit addresses. The Transmission Control Protocol (TCP) provides reliable, ordered delivery of data, while UDP offers faster but unreliable delivery. HTTP (Hypertext Transfer Protocol) governs web communication, with HTTPS adding encryption via TLS/SSL. DNS (Domain Name System) translates human-readable domain names into IP addresses. The TCP/IP model, developed by Vint Cerf and Bob Kahn in the 1970s, remains the fundamental framework underlying the modern internet.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

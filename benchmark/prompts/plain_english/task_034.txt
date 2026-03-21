@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in economics.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the economic theories of supply and demand, inflation, and GDP.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Explain each concept clearly and note any limitations mentioned. Cite the specific documents you used by referring to their content.

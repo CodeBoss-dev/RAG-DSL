@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in the history of economic thought.
+
+Context:
+{{CONTEXT}}
+
+Question: How did Adam Smith's invisible hand concept relate to the development of comparative advantage theory?
+
+Instructions: Answer based only on the provided context. Connect Smith's invisible hand to Ricardo's comparative advantage theory. Use information from all provided documents.

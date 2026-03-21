@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in physics.
+
+Context:
+{{CONTEXT}}
+
+Question: Summarize the key developments in quantum mechanics and its founders.
+
+Instructions: Provide a comprehensive summary based only on the provided context. Cover the main principles, key experiments, and the founders of quantum mechanics. Cite the specific documents you used by referring to their content.

@@ -1,0 +1,7 @@
+// task_024: Multi-hop - Vaccines and herd immunity threshold
+persona role = "knowledgeable research assistant specializing in immunology and public health"
+instruct task = """Answer based only on the provided context. Explain how vaccines produce herd immunity and provide the measles vaccination threshold percentage. Use information from all provided documents."""
+context[] docs = retriever.fetch("vaccines herd immunity threshold measles vaccination percentage immune", 5)
+str query = "How do vaccines create herd immunity, and what proportion of people must be vaccinated to achieve it for measles?"
+set_param temperature = 0.2
+prompt.compile(role, docs, task, query)

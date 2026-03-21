@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in condensed matter physics.
+
+Context:
+{{CONTEXT}}
+
+Question: How does superconductivity work and when was it discovered?
+
+Instructions: Answer based only on the provided context. Explain the mechanism of superconductivity and provide the year and discoverer.

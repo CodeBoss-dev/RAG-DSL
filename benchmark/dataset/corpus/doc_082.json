@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_082",
+  "title": "Neural Networks and Deep Learning",
+  "text": "Artificial neural networks (ANNs) are computing systems loosely inspired by the biological neural networks in animal brains. They consist of layers of interconnected nodes (neurons) that process information using weighted connections. Deep learning refers to neural networks with many hidden layers, which can learn hierarchical representations of data. Deep neural networks achieved breakthroughs in image classification (AlexNet, 2012), speech recognition, and game playing (AlphaGo). Training involves backpropagation, where error signals are propagated backward through the network to adjust weights via gradient descent. The transformer architecture, introduced in 2017, became the foundation for large language models.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

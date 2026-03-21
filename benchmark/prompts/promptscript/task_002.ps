@@ -1,0 +1,7 @@
+// task_002: Factual QA - Radioactivity discovery (physics)
+persona role = "knowledgeable research assistant specializing in physics"
+instruct task = """Answer based only on the provided context. Identify the discoverer and list all three types of radioactive decay with brief descriptions."""
+context[] docs = retriever.fetch("radioactivity discovery types alpha beta gamma decay", 3)
+str query = "Who discovered radioactivity and what are the three main types of radioactive decay?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

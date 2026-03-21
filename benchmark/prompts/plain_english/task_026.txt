@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in nuclear physics and energy.
+
+Context:
+{{CONTEXT}}
+
+Question: How does nuclear fission differ from nuclear fusion, and which is currently used in power plants?
+
+Instructions: Answer based only on the provided context. Contrast fission and fusion and specify which is used commercially. Use information from all provided documents.

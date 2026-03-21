@@ -1,0 +1,7 @@
+{
+  "doc_id": "doc_086",
+  "title": "Compilers and Programming Languages",
+  "text": "A compiler is a program that translates source code written in a high-level programming language into machine code or another target language that a computer can execute. The compilation process involves lexical analysis, syntax parsing, semantic analysis, optimization, and code generation. Languages like C, C++, and Rust are compiled; Python and JavaScript are typically interpreted. Just-in-time (JIT) compilation, used by Java and JavaScript engines, compiles code at runtime for better performance. The first high-level compiled language, FORTRAN, was developed by IBM in the 1950s. LLVM is a modern, widely-used compiler infrastructure that serves as the backend for many languages including C++, Rust, and Swift.",
+  "source": "wikipedia",
+  "topic": "technology"
+}

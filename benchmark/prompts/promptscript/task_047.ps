@@ -1,0 +1,7 @@
+// task_047: Out-of-context (unanswerable) - Sahara animals
+persona role = "knowledgeable research assistant"
+instruct task = """Answer based only on the provided context. If the answer cannot be found in the context, respond: I cannot answer this from the provided context. Do not use outside knowledge."""
+context[] docs = retriever.fetch("Sahara desert climate rainfall temperature size area", 3)
+str query = "What animals are commonly found in the Sahara Desert?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)

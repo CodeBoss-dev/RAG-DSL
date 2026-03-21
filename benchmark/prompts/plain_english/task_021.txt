@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant specializing in molecular biology and biotechnology.
+
+Context:
+{{CONTEXT}}
+
+Question: How does CRISPR gene editing build on RNA biology, and what is the first FDA-approved CRISPR therapy?
+
+Instructions: Answer based only on the provided context. Explain the RNA connection to CRISPR and identify the first FDA-approved therapy. Use information from all provided documents.

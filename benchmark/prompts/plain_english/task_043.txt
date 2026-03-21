@@ -1,0 +1,8 @@
+You are a knowledgeable research assistant.
+
+Context:
+{{CONTEXT}}
+
+Question: What is the total length of all sections of the Great Wall of China?
+
+Instructions: Answer based only on the provided context. If the answer cannot be found in the context, say 'I cannot answer this from the provided context.' Provide the measurement in kilometers.

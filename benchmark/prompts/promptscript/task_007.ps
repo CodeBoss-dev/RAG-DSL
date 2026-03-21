@@ -1,0 +1,7 @@
+// task_007: Factual QA - Mount Everest (geography)
+persona role = "knowledgeable research assistant specializing in geography"
+instruct task = """Answer based only on the provided context. Name the mountain and provide its height in meters."""
+context[] docs = retriever.fetch("tallest mountain Earth height meters Everest Himalayas", 3)
+str query = "What is the tallest mountain on Earth and what is its height?"
+set_param temperature = 0.1
+prompt.compile(role, docs, task, query)
